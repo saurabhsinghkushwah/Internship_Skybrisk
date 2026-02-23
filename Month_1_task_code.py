@@ -170,9 +170,6 @@ Output:
 
 1 2 3 4 5
 
-Real-life analogy:
-
-Attendance call in class roll number 1 to 50
 
 (B) While Loop
 
@@ -187,10 +184,8 @@ while i <= 5:
     print(i)
     i += 1
 
-Critical Mistake Beginners Make:
-Forgetting to update the loop variable → Infinite loop.
 
-7. Hands-On Programs (Must Practice)
+7. Hands-On Programs 
 (1) Temperature Converter (Celsius to Fahrenheit)
 celsius = float(input("Enter temperature in Celsius: "))
 fahrenheit = (celsius * 9/5) + 32
@@ -205,7 +200,6 @@ print("Multiplication:", num1 * num2)
 print("Division:", num1 / num2)
 8. Client Project: Basic Data Processing Script (Average Temperature)
 
-This is actually important because it mimics real data analysis logic.
 
 Example: Average Temperature Calculator
 total = 0
@@ -229,8 +223,6 @@ Input/Output
 Loop (for)
 
 Operators
-
-Real-world data processing logic
 
 9. Summary (What You Actually Learned This Week)
 
@@ -318,8 +310,6 @@ coordinates = (10, 20)
 print(coordinates[0])  # 10
 
 # coordinates[0] = 50 (Error: immutable)
-
-When to use tuple instead of list?
 
 When data should not change (config, coordinates, constants)
 
@@ -468,7 +458,6 @@ def factorial(n):
 
 print(factorial(5))  # 120
 
-Hard truth:
 Recursion is elegant but not always efficient. For large data, loops are often better.
 
 8. List Comprehension (Theory)
@@ -1225,5 +1214,3 @@ Seaborn for advanced statistical visualization
 Heatmaps for correlation analysis
 
 Pairplots for multi-feature relationship analysis
-
-Visual storytelling with data (core analyst skill)
